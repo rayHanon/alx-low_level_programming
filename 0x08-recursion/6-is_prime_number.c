@@ -5,7 +5,7 @@
  *
  * Return: 0 if the number is not a prime number or one if it is
  */
-int is_prime_number(int n, int i)
+int is_prime_number(int n)
 {
 	if (n <= 1)
 		return (0);
